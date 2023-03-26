@@ -23,8 +23,8 @@ const ProjectPage = ()=>{
     ${projects.map((item) =>`
               
                   <div class="carousel-item active item-project">
-                     <div class="over-img-project container">  <a href="/projects/${item.id}"> <img src="${item.src}" class="d-block img-projects container">  </a></div>            
-                      <h3 class="w-h-75 h3-project-item"><a href="/projects/${item.id}">${item.name}</a></h3>
+                     <div class="over-img-project container">  <a  href="/projects/${item.id}"> <img src="${item.src}" class="d-block img-projects container">  </a></div>            
+                      <h3 class="w-h-75 h3-project-item"><a  href="/projects/${item.id}">${item.name}</a></h3>
                       <p>${item.title}</p>
                   </div>
                    
@@ -32,7 +32,7 @@ const ProjectPage = ()=>{
                  `).join("")}
                 
             </div>
-            <h3 class="text-center h3-project"><a href="https://github.com/cuongdeptraivkl">See more on Github <i class='bx bxl-github'></i></a></h3>
+            <h3 class="text-center h3-project"><a target="_blank" href="https://github.com/cuongdeptraivkl">See more on Github <i class='bx bxl-github'></i></a></h3>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>

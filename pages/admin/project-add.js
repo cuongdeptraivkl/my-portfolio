@@ -115,7 +115,7 @@ const AdminProjectsAddPage = () => {
 
 
 
-      <a href="admin/projects"> <button type="button" class="btn btn-danger">Admin</button></a>
+      <a target="_blank" href="admin/projects"> <button type="button" class="btn btn-danger">Admin</button></a>
       <button class="btn btn-primary">Add </button>
       <div class="form-group">
       </div>

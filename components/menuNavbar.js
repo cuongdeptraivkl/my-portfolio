@@ -8,7 +8,7 @@ const menuNavbar = () => {
 
     return `   
         <li class="nav-item">
-          <a class="nav-link" href="${menu.path}">${menu.name}</a>
+          <a mailto class="nav-link" href="${menu.path}">${menu.name}</a>
         </li>  
             
             `

@@ -71,7 +71,7 @@ const AdminProjectsPage = () => {
 
             <td>
                 <button data-id="${project.id}" class="btn btn-remove btn-danger">Remove</button>
-                <a href="/admin/projects/${project.id}/update"> <button data-id="${project.id}"  class="btn btn-primary btn-update">Edit</button></a>
+                <a target="_blank" href="/admin/projects/${project.id}/update"> <button data-id="${project.id}"  class="btn btn-primary btn-update">Edit</button></a>
             </td>
         </tr>
          `).join("")}

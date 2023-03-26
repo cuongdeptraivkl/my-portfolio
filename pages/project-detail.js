@@ -59,18 +59,18 @@ const ProjectDetailPage = ({ data: { id } }) => {
                     <h3 class="text-center h1-right-project-detail">Can You Like Too</h3>
                     <div class="recommend">
                         <ul>
-                            <li><a href="">
+                            <li><a target="_blank" href="">
                                     <h4>${project.name}</h4>
                                 </a></li>
-                            <li><a href="">
+                            <li><a target="_blank" href="">
                                     <p>${project.title}</p>
                                 </a></li>
                         </ul>
-                        <a href=""><img src="${project.src}" alt=""></a>
+                        <a target="_blank" href=""><img src="${project.src}" alt=""></a>
                     </div>
                    
 
-                    <h3 class="text-center h3-project"><a href="${project.link}">See more on Github <i class='bx bxl-github'></i></a></h3>
+                    <h3 class="text-center h3-project"><a target="_blank" href="${project.link}">See more on Github <i class='bx bxl-github'></i></a></h3>
                 </div>
             </div>
         </div>

@@ -65,13 +65,13 @@ return `
               Remember me
             </label>
           </div>
-          <a href="/login" class="text-body">Forgot password?</a>
+          <a target="_blank" href="/login" class="text-body">Forgot password?</a>
         </div>
 
         <div class="text-center text-lg-start mt-4 pt-2">
           <button type="submit" class="btn"
             style="padding-left: 2.5rem; padding-right: 2.5rem;background-color: #ffc830;">Login</button>
-          <p class="small fw-bold mt-2 pt-1 mb-0">If you are not Manh Cuong, please <a href="/"
+          <p class="small fw-bold mt-2 pt-1 mb-0">If you are not Manh Cuong, please <a target="_blank" href="/"
               class="link-danger">Go Back Home</a></p>
         </div>
 
