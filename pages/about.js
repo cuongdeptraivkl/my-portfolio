@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-
+import aboutImg from "../src/img/about.jpg"
 const AboutPage = () => {
     return `
     <div id="about" class="aboutMe container-fluid" ">
@@ -9,7 +9,7 @@ const AboutPage = () => {
         <div class="row">
             
             <div class="col-md-5 img-aboutMe" data-aos="fade-left" >
-                <img width="96%" src="src/img/about.jpg" alt="">
+                <img width="96%" src=${aboutImg} alt="">
                 <div class="item-img-about item-ab1 text-center">
                     <h4>20+</h4>
                     <p>Projects Web</p>
