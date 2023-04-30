@@ -67,7 +67,7 @@ const AdminProjectsPage = () => {
             <td>${project.title}</td>
             <td>${project.titleDetail}</td>
             <td>${project.demotech}</td>
-            <td>${project.link}</td>
+            <td><a href="${project.link}">${project.link}</a></td>
 
             <td>
                 <button data-id="${project.id}" class="btn btn-remove btn-danger">Remove</button>

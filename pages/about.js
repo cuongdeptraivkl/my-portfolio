@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div class="aboutme-item container">
         <div class="row">
             
-            <div class="col-md-5 img-aboutMe" data-aos="fade-left" >
+            <div class="col-md-5 img-aboutMe" data-aos="fade-up" >
                 <img width="96%" src=${aboutImg} alt="">
                 <div class="item-img-about item-ab1 text-center">
                     <h4>20+</h4>
@@ -22,13 +22,13 @@ const AboutPage = () => {
                     <p>Realistic projects</p>
                 </div>
             </div>
-            <div class="col-md-7 right-about" data-aos="fade-right">
+            <div class="col-md-7 right-about" data-aos="fade-down">
                 <h3>About Me</h3>
                 <h5>A story of hardwork and perseverance </h5>
                 <p>Hello, I am a web developer. My job is to create websites and web applications to solve my clients' problems. I am passionate about programming and always try to learn new technologies to improve my development skills. If you are looking for an experienced and passionate web developer, I would be the right person to help you with your projects.</p>
                 <h5>Information</h5>
                 <p>School :FPT POLYTECHNIC</p>
-                <p>Website: mcuongdev@gmail.com</p>
+                <p>Website: mcuong.vercel.app</p>
                 
                 <p>Email : Mcuongdev.it@gmail.com</p>
                 <p>Phone: 0775.292.262</p>

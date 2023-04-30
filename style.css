@@ -34,8 +34,8 @@ html {
   position: fixed;
   transition: .2s linear;
   top: 0;
-  z-index: 1;
-
+  z-index: 2;
+  background-color: #fff;
 
 }
 
@@ -58,18 +58,27 @@ html {
   margin-top: 65px;
 }
 
+.waves{
+  position: absolute;
+  bottom: -5px;
+  z-index: 1;
+  left: -5px;
+  width: 110%;
+  right: 0;
+
+  background-color: transparent;
+}
 .banner-clippath {
+  position: relative;
   overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 83% 94%, 65% 91%, 47% 92%, 31% 92%, 16% 89%, 0 83%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 83% 94%, 65% 91%, 47% 92%, 31% 92%, 16% 89%, 0 83%); */
 }
 
-.text-color {
-  color: #fff;
-  background-color: #171c22;
-}
 
 .decor-banner {
   position: relative;
+  overflow: hidden;
+  /* z-index: 2; */
 }
 
 .decor-banner .bx {
@@ -135,14 +144,17 @@ html {
 }
 
 
-
 .text-color {
+  color: #fff;
+  background-color: #171c22;
   padding: 90px 20px;
+}
+.text-color h3{
+  z-index: 2;
 }
 
 .text-color h1 {
   position: relative;
-
   color: #171c22;
   font-family: roboto;
   font-weight: bold;
@@ -285,11 +297,9 @@ html {
 #myprojects {
   background-color: #171c22;
   padding: 70px 0;
+  margin-top: 100px;
 }
 
-.slide-show-projects {
-  color: #fff;
-}
 
 .text-project {
   color: #2ad883;
@@ -301,43 +311,28 @@ html {
 
 .h3-project-item {
   margin: 20px 0;
-}
+  text-align: center;
 
-.over-img-project {
-  width: 85%;
-  height: 450px;
-  overflow: hidden;
+}
+.h3-project-item a{
+  text-decoration: none;
+  color: #dcd9d9;
 }
 
 .img-projects {
-  width: 85%;
+  width: 100%;
   transition: .15s linear;
-  /* height: 550px; */
+  border-radius: 30px;
 }
 
-.item-project {
-  transition: .15s linear;
-}
 
-.item-project a {
-  text-decoration: none;
-  color: #2ad883;
+.img-projects:hover{
+  transition: .2s linear;
+  transform: scale(1.1);
 }
-
-.item-project p {
-  color: rgba(255, 255, 255, 0.669);
-  margin-left: 50px;
+.project-page p{
+  color: #acacac;
 }
-
-.item-project h3 {
-  margin-left: 50px;
-}
-
-.item-project:hover .img-projects {
-  transform: scale(1.08);
-  transition: .15s linear;
-}
-
 .h3-project {
   padding: 10px;
   background-color: #313942;
@@ -359,10 +354,18 @@ html {
 
 .clipath-contact {
   background-color: #2ad883;
-  clip-path: polygon(46% 6%, 60% 6%, 79% 9%, 100% 18%, 100% 100%, 0 100%, 0 0, 18% 6%, 31% 7%);
+  /* clip-path: polygon(46% 6%, 60% 6%, 79% 9%, 100% 18%, 100% 100%, 0 100%, 0 0, 18% 6%, 31% 7%); */
   padding: 20px 0;
+  position: relative;
 }
 
+.waves-contact{
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: -20px;
+  background-color: transparent;
+}
 .p-contact {
   font-size: 13px;
   color: #fff;
@@ -625,4 +628,17 @@ textarea {
   transition: .2s linear;
   transform: scale(1.1);
 
+}
+
+/* =====reponsive============= */
+
+@media (max-width: 768px) {
+  .menu-header, .icon-header{
+    display: none;
+  }
+  .waves-contact{
+    top: -2px;
+    left: -1px;
+    right: -1px;
+  }
 }

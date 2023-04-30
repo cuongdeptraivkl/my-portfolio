@@ -5,10 +5,7 @@ import menuAdmin from "../../components/menuAdmin";
 import { router, useEffect } from "../../libs";
 
 const AdminProjectsAddPage = () => {
-    //kiểm tra trên localStorage có dữ liệu hay không, nếu có thfi lấy còn không thì gán vào mảng rỗng
-
-    // const projectList = JSON.parse(localStorage.getItem('projects')) || [];
-    // console.log(projectList);
+  
   useEffect(()=>{
     const form = document.getElementById("form-add");
    // console.log(form);
@@ -115,7 +112,7 @@ const AdminProjectsAddPage = () => {
 
 
 
-      <a target="_blank" href="admin/projects"> <button type="button" class="btn btn-danger">Admin</button></a>
+      <a target="_blank" href="/admin/projects"> <button type="button" class="btn btn-danger">Admin</button></a>
       <button class="btn btn-primary">Add </button>
       <div class="form-group">
       </div>

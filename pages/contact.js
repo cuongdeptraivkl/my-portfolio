@@ -2,8 +2,15 @@ import Header from "../components/Header";
 
 const ContactPage = () => {
     return `
-    <div class="bg-contact container-fluid" id="contact">
-    <div class="clipath-contact">
+    <div class="bg-contact container-fluid" id="contact" data-aos="zoom-in">
+      <div class="clipath-contact">
+            <section>
+                <svg class="waves-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320">
+                        <path
+                        d="M0 74L30 77.7C60 81.3 120 88.7 180 80.5C240 72.3 300 48.7 360 35.8C420 23 480 21 540 26.3C600 31.7 660 44.3 720 56C780 67.7 840 78.3 870 83.7L900 89L900 0L870 0C840 0 780 0 720 0C660 0 600 0 540 0C480 0 420 0 360 0C300 0 240 0 180 0C120 0 60 0 30 0L0 0Z"
+                        fill="#171c22" stroke-linecap="round" stroke-linejoin="miter"></path>
+                </svg>
+            </section>
         <div class="container">
             <p class="text-center p-contact">connect to me</p>
             <h2 class="text-center h3-contact">Contact</h2>
