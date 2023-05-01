@@ -5,7 +5,7 @@ const ProjectPage = () => {
   const [projects, setProjects] = useState(projectList);
 
   useEffect(() => {
-    fetch("http://localhost:3000/projects")
+    fetch("https://644ff66cba9f39c6ab70ffb4.mockapi.io/projects")
       .then((response) => response.json())
       .then((data) => setProjects(data));
   }, []);
