@@ -5,9 +5,9 @@ const ProjectPage = () => {
   const [projects, setProjects] = useState(projectList);
 
   useEffect(() => {
-    fetch("https://644ff66cba9f39c6ab70ffb4.mockapi.io/projects")
+    fetch("https://mcuong.vercel.app/api/db")
       .then((response) => response.json())
-      .then((data) => setProjects(data));
+      .then((data) => setProjects(data.projects));
   }, []);
 
   return `
