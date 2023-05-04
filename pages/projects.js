@@ -5,7 +5,7 @@ const ProjectPage = () => {
   const [projects, setProjects] = useState(projectList);
 
   useEffect(() => {
-    fetch("https://mcuong.vercel.app/api/db")
+    fetch("https://raw.githubusercontent.com/manhcuong8123/my-portfolio/main/db.json")
       .then((response) => response.json())
       .then((data) => setProjects(data.projects));
   }, []);
