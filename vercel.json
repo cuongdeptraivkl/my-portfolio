@@ -1,6 +1,6 @@
 {
     "routes": [
-      { "src": "/api/db", "dest": "https://raw.githubusercontent.com/cuongdeptraivkl/myportfolio/main/db.json" }
+      { "src": "/api/db", "dest": "https://github.com/manhcuong8123/my-portfolio/blob/main/db.json" }
     ]
   }
   
