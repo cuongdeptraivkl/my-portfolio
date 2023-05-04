@@ -33,7 +33,7 @@ const ProjectPage = () => {
         </div>
       </div>
       <h3 class="text-center h3-project">
-        <a target="_blank" href="https://github.com/cuongdeptraivkl">See more on Github <i class='bx bxl-github'></i></a>
+        <a target="_blank" href="https://github.com/manhcuong8123">See more on Github <i class='bx bxl-github'></i></a>
       </h3>
     </div>
   `;
