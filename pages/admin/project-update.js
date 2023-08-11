@@ -5,7 +5,7 @@ import { router, useEffect, useState } from "../../libs";
 const AdminProjectUpdatePage = ({data: {id}}) => {
     const [project,setProject]= useState({});
     useEffect(()=>{
-        axios.get(`http://localhost:3000/projects/${id}`).then(({data})=>setProject(data));
+        axios.get(`https://mcuong.vercel.app/api/db/${id}`).then(({data})=>setProject(data));
     },[])
     useEffect(() => {
         const form = document.getElementById("form-update");

@@ -33,8 +33,8 @@ const AboutPage = () => {
                 <p>Email : Mcuongdev.it@gmail.com</p>
                 <p>Phone: 0775.292.262</p>
                 <p>Add: Kien Xuong- Thai Binh</p>
-                <a target="_blank"  href="https://www.facebook.com/cuong.dev.8123"><button class="btn btn-secondary m-3">My Infor</button></a>
-                <a target="_blank" href="https://www.topcv.vn/xem-cv/AwYFDgtRAFcAVVVTV1AGB1NTBAYCUQ9TBQIABA2801?fbclid=IwAR0zCWbctYdLAlY6k3JHrMRZhcV6FnqBRCIgEzphu7yZGEjFuynTV2HO3n8"><button class="btn btn-success">Download CV</button></a>
+                <a target="_blank"  href="https://www.facebook.com/mcuong.dev.8123"><button class="btn btn-secondary m-3">My Infor</button></a>
+                <a target="_blank" href="https://www.topcv.vn/xem-cv/CFMIUFxXWwQMVQlWW1AAAFNWXw4BBVReV1MFUA37c7"><button class="btn btn-success">Download CV</button></a>
             </div>
         </div>
     </div>

@@ -6,9 +6,9 @@ const ProjectPage = () => {
 
   useEffect(() => {
     fetch("https://mcuong.vercel.app/api/db")
-      .then((response) => response.json())
-      .then((data) => setProjects(data.projects));
-  }, []);
+    .then((response) => response.json())
+    .then((data) => setProjects(data.projects));
+}, []);
 
   return `
     <div id="myprojects" class="container-fluid" >

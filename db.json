@@ -65,6 +65,17 @@
       "titleDetail": "abc",
       "demotech": "HTML,CSS,JS",
       "link": "https://fudoo.vercel.app/"
+    },
+    {
+      "name": "Music App",
+      "title": "Music App",
+      "src": [
+        "https://res.cloudinary.com/dxxdsgful/image/upload/v1691746883/Portfolio/k8waoilvi4wvguxspqp5.png"
+      ],
+      "link": "https://musicchill.vercel.app/",
+      "titleDetail": "asfasfas",
+      "demoTech": "reactjs",
+      "id": 7
     }
   ]
 }
