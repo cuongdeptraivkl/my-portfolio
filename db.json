@@ -76,6 +76,28 @@
       "titleDetail": "asfasfas",
       "demoTech": "reactjs",
       "id": 7
+    },
+    {
+      "name": "Web công Ty",
+      "title": "ACEFIC5 ",
+      "src": [
+        "https://res.cloudinary.com/dxxdsgful/image/upload/v1697358558/Portfolio/jqioxtx4cenqxtnipgau.png"
+      ],
+      "link": "https://acefit.vercel.app/",
+      "titleDetail": "gdssgdgdsgsdgsdgsdgsdgsdg",
+      "demoTech": "sadfsdffdsfsdf",
+      "id": 8
+    },
+    {
+      "name": "Web Công Ty Xây Dựng",
+      "title": "TALU",
+      "src": [
+        "https://res.cloudinary.com/dxxdsgful/image/upload/v1697358677/Portfolio/qiym3wr75ihwftls0o5v.png"
+      ],
+      "link": "https://talu.vercel.app/",
+      "titleDetail": "gdssgdgdsgsdgsdgsdgsdgsdg",
+      "demoTech": "HTML,CSS,JS",
+      "id": 9
     }
   ]
 }
